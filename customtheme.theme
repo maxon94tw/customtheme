@@ -10,10 +10,10 @@ function customtheme_theme_suggestions_page_alter(array &$suggestions, array $va
   if ($node = \Drupal::routeMatch()->getParameter('node')) {
     $content_type = $node->bundle();
     if ($content_type == 'faq') {
-      $suggestions[] = 'node__page__' . $content_type;
+      $suggestions[] = 'node__page__faq';
     }
     if ($content_type == 'sitemap') {
-      $suggestions[] = 'node__page__' . $content_type;
+      $suggestions[] = 'node__page__sitemap';
     }
   }
 }

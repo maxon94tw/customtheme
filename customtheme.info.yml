@@ -8,7 +8,7 @@ core: 8.x
 libraries:
   - customtheme/global-styling
 libraries-override:
-  bartik/maintenance-page:
+  bartik/maintenance_page:
     css:
       theme:
         css/maintenance-page.css: css/maintenance-page.css
